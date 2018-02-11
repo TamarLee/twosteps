@@ -13,4 +13,5 @@
 
 Route::prefix('admin')->group(function () {
     Route::resource('products', 'Admin\AddController');
+    Route::resource('addproducts', 'Admin\AddController');
 });
