@@ -12,6 +12,7 @@
 	<style type="text/css">
 		.bord {
 			border: solid 2px blue;
+			margin: 10px 0;
 		}
 	</style>
 </head>
@@ -20,7 +21,7 @@
 		<div class="container">
 			<div class="row">
 				@foreach($products as $value)
-				<div class="col-md-3 bord">
+				<div class="col-md-6 bord">
 					<div>{{ $value->name }}</div>
 					<div>{{ $value->image }}</div>
 					<div>{{ $value->seen }}</div>

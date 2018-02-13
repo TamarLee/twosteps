@@ -14,3 +14,7 @@
 Route::prefix('admin')->group(function () {
     Route::resource('products', 'Admin\AddController');
 });
+
+Route::get('/', function(){
+	return view('home');
+});
