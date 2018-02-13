@@ -154,11 +154,11 @@ ul.lul li:before {
 .img-btn{
 	width: 30px;
 }
-
+/*
 .pagination .page-item a{
 	background-color: transparent;
 	border: 1px solid #E3E8EB;
-}
+}*/
 .page-item.active .page-link{
 	border: 1px solid #2ECC40;
 }
